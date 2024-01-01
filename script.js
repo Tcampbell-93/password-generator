@@ -38,16 +38,18 @@ function writePassword() {
       } else if (randomCharacter === 3 && includeUppercase == true) {
         var index = Math.floor(Math.random() * uppercase.length);
         password += uppercase[index];
+      }
+      }
       
-        return password;
+      return password;
       
       } else {
         window.alert("Password has to be between 8 and 128 characters.");
-        }
       }
     }
   }
-}
+  
+
 
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
