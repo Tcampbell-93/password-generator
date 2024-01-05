@@ -26,10 +26,7 @@ function writePassword() {
       for (var i = 0; i < characterLength; i++) {
         var randomCharacter = Math.floor(Math.random() * 4);
       
-      if (randomCharacter === 0) {
-        var index = Math.floor(Math.random() * characters.length);
-        password += characters[index];
-      } else if (randomCharacter === 1 && includeNumbers == true) {
+      if (randomCharacter === 1 && includeNumbers == true) {
         var index = Math.floor(Math.random() * numbers.length);
         password += numbers[index];
       } else if (randomCharacter === 2 && includeSpecial == true) {
@@ -38,6 +35,9 @@ function writePassword() {
       } else if (randomCharacter === 3 && includeUppercase == true) {
         var index = Math.floor(Math.random() * uppercase.length);
         password += uppercase[index];
+      } else {
+        var index = Math.floor(Math.random() * characters.length);
+        password += characters[index];
       }
       }
       
