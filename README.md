@@ -16,6 +16,7 @@ Once you have choosen all the prompts your password will show up in the text box
 
 https://www.w3schools.com/css/
 https://developer.mozilla.org/en-US/
+I also used the Xpert learning assistant in bootcampspot.
 
 ## How to view my project
 
