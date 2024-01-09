@@ -17,3 +17,8 @@ Once you have choosen all the prompts your password will show up in the text box
 https://www.w3schools.com/css/
 https://developer.mozilla.org/en-US/
 
+## How to view my project
+
+Click this link https://tcampbell-93.github.io/password-generator/
+
+![Alt text](assets/password-generator.png)
